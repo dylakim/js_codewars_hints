@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd</title>
+</head>
+<body>
+    <h1>Even or Odd</h1>
+    <a
+        href="https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript"
+        target="_blank"
+    >
+        https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+    </a>
+
+    <h2>Instructions:</h2>
+    <p><i>These instructions are copied from the above Codewars Kata</i></p>
+    
+    <p>Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
+
+    <br><br>
+
+    <h2>Tips</h2>
+    <p>If a number is evenly divisible by 2, with no remainder, that means it is an even number</p>
+    <p>If a number is not evenly divisible by 2, and therefore has a remainder, that means it is an odd number</p>
+    <p>Use the remainder operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder</a> to evaluate if a value is even or odd.</p>
+    <p>The following examples, using the reminder operator, will evaluate to 0. If there is no remainder when the first number is divided by 2, this means the value is even.</p>
+    <ul>
+        <li>2 % 2</li>
+        <li>4 % 2</li>
+        <li>68 % 2</li>
+        <li>-36 % 2</li>
+        <li>0 % 2</li>
+    </ul>
+
+    <p>The following examples, using the remainder operator, will evaluate to something greater than 0. If there is some remainder when the first number is divided by 2, this means the value is odd.</p>
+    <ul>
+        <li>3 % 2</li>
+        <li>7 % 2</li>
+        <li>95 % 2</li>
+        <li>-49 % 2</li>
+    </ul>
+
+
+    <script>
+        function even_or_odd(number) {
+            // Check if the number is even
+            
+            // If true, return the string 'Even'
+            // If false, return the string 'Odd'
+        }
+
+        // Tests
+        console.log(even_or_odd(2));
+        // Even
+
+        console.log(even_or_odd(7));
+        // Odd
+        
+        console.log(even_or_odd(-42));
+        // Even
+
+        console.log(even_or_odd(-7));
+        // Odd
+
+        console.log(even_or_odd(0));
+        // Even
+    </script>
+</body>
+</html> 
